@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="修改密码"
+        android:textSize="35sp"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_marginTop="45sp"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:maxLines="1"
+        android:hint="请输入用户名"/>
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_marginTop="30sp"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:maxLines="1"
+        android:inputType="textPassword"
+        android:hint="请输入原密码" />
+    <EditText
+        android:id="@+id/edit3"
+        android:layout_marginTop="30sp"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:maxLines="1"
+        android:inputType="textPassword"
+        android:hint="请输入新密码" />
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"
+        android:text="确定"/>
+
+</LinearLayout>
